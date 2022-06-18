@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+}
+
+input {
+  /* border-color: rgb(125, 125, 125); */
+  padding: 5px 40px;
+}
+.title-bank {
+  margin-top: 100px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(179, 200, 245);
+  border-radius: 10px;
+  border: none;
+
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: rgb(106, 106, 106);
+  border-radius: 20px;
+  width: 800px;
+  height: 800px;
+  text-align: center;
+}
+
+.balance {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(84, 161, 83);
+}
+
+.balancespan {
+  color: white;
+}
+
+h1 {
+  font-size: 44px;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+p {
+  font-size: 26px;
+  color: white;
+}
+
+.money {
+  padding: 20px;
+
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(72, 72, 72);
+  transition: background-color 250ms ease;
+}
+
+.add:hover {
+  background-color: rgb(47, 184, 115);
+}
+.with:hover {
+  background-color: rgb(226, 43, 70);
+}
+
+img {
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.verifyPass {
+  font-weight: 700;
+}
