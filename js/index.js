@@ -3,11 +3,11 @@
 
 const bankData = [
   {
-    name: "privat",
+    name: "privatebank",
     img: "https://varta1.com.ua/uploads/media/7f/84/7f8432de07c17be5ee2e1cd3359fe4de_w1920.webp",
   },
   {
-    name: "ukrsib",
+    name: "ukrsibbank",
     img: "https://internationalwealth.info/wp-content/uploads/2019/08/UKRSIBB.jpg",
   },
   {
@@ -55,7 +55,7 @@ function submit(event) {
 //4
 function createUserCabinet(user) {
   //4.2
-  const bankBtn = `<button class id = '${user.bank}'>${user.bank}</button>`;
+  const bankBtn = `<button class='new-button' id = '${user.bank}'>${user.bank}</button>`;
   containerBank.insertAdjacentHTML("beforeend", bankBtn);
   //5
   containerBank.addEventListener("click", showUserInfo);
@@ -142,7 +142,7 @@ function changeBalance(event) {
 
 //4---Создаем функцию, которая будет создавать кнопку выбранного банка и принимать данные с объекта user.
 //4.1--Вызываем функцию и в параметры добавляем наш объект user.
-//4.2-- В файле html создаем див для нашей кнопки и вставляем в него нашу заготовленную разметку.
+//4.2--  вставляем  нашу заготовленную разметку в html
 
 //5--- Добавляем слушателя событий на созданную кнопку с функцией showUserInfo.
 
